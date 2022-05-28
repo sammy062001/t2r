@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+mypy = "*"
+pylint = "*"
+black = "*"
+rope = "*"
+pytest = "*"
+pytest-cov = "*"
+
+[packages]
+praw = "*"
+tweepy = "*"
+
+[requires]
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
